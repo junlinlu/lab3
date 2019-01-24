@@ -56,8 +56,19 @@ body {
      font-size: 1.5em;
 }
 
+.test{
+     font-size: 10px;
+     font-family: 'Roboto';
+}
+
 .test.active {
-     border: 1px solid #ee3223;
+     border: 1px dotted #4286f4;
+}
+
+#myelement {
+     text-align: center;
+     font-size: 10px;
+     font-family: 'Roboto';
 }
 
 #image {
@@ -83,7 +94,7 @@ body {
 }
 
 .jumbotron p.active {
-     color: #1f6ddd;
+     color: #4286f4;
 }
 
 .button {

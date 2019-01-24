@@ -11,7 +11,7 @@ $(document).ready(function() {
 function initializePage() {
 	$("#testjs").click(function(e) {
 		$('.jumbotron h1').text("Javascript is connected");
-		$("#testjs").text("please wait...");
+		$("#testjs").text("click me");
 		$(".jumbotron p").toggleClass("active");
 	});
 
@@ -32,7 +32,7 @@ function initializePage() {
 
     	if (description.length == 0){
     		$(containingProject).append("<div class='project-description'>\
-    			<p>Description of the project.</p></div>");
+    			<p>This is an animation project coded with python.</p></div>");
     	} else {
     		$(".project-description").fadeToggle();
     		/*description.html("<p>Stop clicking on me! You just did it at" 
@@ -43,7 +43,7 @@ function initializePage() {
 
 	$('#myelement').click(changeText);
 	function changeText(event){
-		$(this).html("changed text");
+		$(this).html("now you don't");
 		$("#myelement").fadeOut();
 	}
 
@@ -54,10 +54,10 @@ function initializePage() {
 		$(this).toggleClass("active");
 	});
 
-	$("#image").animate({
+	$("#image").animate({  //only return 1, can return lots of stuff with .
 		"width":500
 	}, 1000);
 
-  $("#image").length;
+  
 
 }
