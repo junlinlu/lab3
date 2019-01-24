@@ -58,4 +58,6 @@ function initializePage() {
 		"width":500
 	}, 1000);
 
+  $("#image").length;
+
 }
