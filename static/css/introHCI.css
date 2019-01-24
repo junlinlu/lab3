@@ -5,38 +5,91 @@
 
 /* applies to any <p> descendants of an element of class "example-class-selector" */
 .example-class-selector p {
-	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
+	/* Colors are in hexadecimal: http://www.colorpicker.com/ */
 	color: #CC00AA;
 }
 
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
-     border: 1px dotted gray;
-     padding: 20px;
+     border: 1px solid #2c2c2c;
+     padding: 50px;
 }
 
+#name {
+     text-align: center;
+     font-family: 'ZCOOL QingKe HuangYou', cursive;
+     font-size: 2.5em;
+     color: #2c2c2c;
+     margin-top: 150px;
+     margin-left: 400px;
+     margin-right: 400px;
+     border: 1px solid #2c2c2c;
+     padding: 50px;
+}
+
+#bio {
+     text-align: center;
+     font-family: 'Roboto', sans-serif;
+     font-size: 0.5em;
+     color: #2c2c2c;
+     margin-left: 0px;
+}
+
+#logo {
+     margin-top: -200px;
+     margin-left: 550px;
+     height: 20%;
+     width:20%;
+}
+
+.allwork {
+     text-align: center;
+     font-family:'Roboto', sans-serif;
+     font-size: 0.8em;
+     padding:50px;
+}
+
+
+.title{
+     font-family: 'ZCOOL QingKe HuangYou', cursive;
+     font-size: 1.5em;
+}
+
+.test.active {
+     border: 1px solid #ee3223;
+}
+
+#image {
+     height: 20%;
+     width: 20%;
+     padding:20px;
+}
 .jumbotron {
-	position: relative;
-	background: none;
+     position: relative;
+     background: none;
 }
 
 .jumbotron:after {
      content:"";
-     background: url("../images/lorempixel.jumbotron.jpeg");
+     background: url("http://lorempixel.com/1140/283");
      opacity: 0.2;
      top: 0;
      left: 0;
      bottom: 0;
      right: 0;
      position: absolute;
-     z-index: -1;	
+     z-index: -1;
 }
 
-.jumbotron p {
-     color: #6e6e6e;
+.jumbotron p.active {
+     color: #1f6ddd;
 }
 
-.project a {
-     text-align: center;
-}
+.button {
+     background-color: #555555;
+     color: white;
+     font-size: 10px;
+     font-family: 'Roboto';
+     margin: 10px 200px 50px;
+     } /* Black */
